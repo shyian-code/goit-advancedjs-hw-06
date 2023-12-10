@@ -12,4 +12,4 @@ function getPromise<T>() {
 getPromise()
   .then((data) => {
     console.log(data); // Тип data буде (string | number)[]
-  });
+});
